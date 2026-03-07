@@ -59,15 +59,26 @@ https://contactlist-backend-f3pa.onrender.com
 Python_JS_Flask
 │
 ├── backend
-│   ├── main.py
+│   ├── instance
+│   │   └── mydatabase.db
 │   ├── config.py
+│   ├── main.py
 │   └── requirements.txt
 │
 ├── frontend
 │   ├── src
-│   │   ├── components
+│   │   ├── App.css
 │   │   ├── App.jsx
+│   │   ├── ContactForm.jsx
+│   │   ├── ContactList.jsx
+│   │   ├── index.css
 │   │   └── main.jsx
+│   │
+│   ├── .env.production
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
 │   ├── package.json
 │   └── vite.config.js
 │
