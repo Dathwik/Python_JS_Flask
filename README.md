@@ -61,7 +61,6 @@ Python_JS_Flask
 ├── backend
 │   ├── main.py
 │   ├── config.py
-│   ├── models.py
 │   └── requirements.txt
 │
 ├── frontend
